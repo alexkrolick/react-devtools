@@ -208,6 +208,31 @@ const Flat: Theme = {
   base0L: '#2C3E50',
 };
 
+const GruvboxDark: Theme = {
+  displayName: 'Gruvbox (dark)',
+  base00: '#282828', // Default Background
+  base01: '#3c3836', // Lighter Background (Used for status bars)
+  base02: '#504945', // Selection Background
+  base03: '#928374', // Comments, Invisibles, Line Highlighting
+  base04: '#d5c4a1', // Dark Foreground (Used for status bars), Host Components (eg <div>)
+  base05: '#ebdbb2', // Default Foreground, Caret, Delimiters, Operators
+  base06: '#fbf1c7', // Light Foreground (Not often used);
+  base07: '#665c54', // Light Background (Not often used);
+  base08: '#458588', // Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+  base09: '#b16286', // Integers, Boolean, Constants, XML Attributes, Markup Link Url
+  base0A: '#7c6f64', // Highlight Background Color for search/filter matches
+  base0B: '#98971a', // Strings, Inherited Class, Markup Code, Diff Inserted
+  base0C: '#d65d0e', // Support, Regular Expressions, Escape Characters, Markup Quotes
+  base0D: '#fabd2f', // Functions, Methods, Attribute IDs, Headings
+  base0E: '#fe8019', // Keywords, Storage, Selector, Markup Italic, Diff Changed
+  base0F: '#923874', // Deprecated, Opening/Closing Embedded Language Tags e.g.
+  base0H: '#3c3836', // Selected Background for nodes/tabs when devtools is focused
+  base0I: '#7c6f64', // Selected Background for nodes/tabs when devtools is not focused
+  base0J: '#7c6f64', // Hover Background for nodes/tabs
+  base0K: '#fbf1c7', // Selected Foreground for nodes/tabs when devtools is focused
+  base0L: '#fbf1c7', // Highlight Foreground Color for search/filter matches
+};
+
 const Materia: Theme = {
   displayName: 'Materia',
   base00: '#263238',
@@ -291,6 +316,7 @@ module.exports = {
   FirefoxDark,
   FirefoxLight,
   Flat,
+  GruvboxDark,
   Materia,
   MaterialDark,
   Phd,
